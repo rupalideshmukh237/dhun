@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "regular";
+  src: url("../public/dmsans_n4.ec80bd4dd7e1a334c969c265873491ae56018d72.woff2");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("../public/GeneralSans-Light.otf");
+}
+
+@font-face {
+  font-family: "italic";
+  src: url("../public/Minion3Display-Italic.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #E1DCD1;
+  background-color: #F7F3EC;
+}
+html
+button:hover{
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+}
